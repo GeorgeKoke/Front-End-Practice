@@ -1,0 +1,124 @@
+body {
+    font-size: 16pt;
+}
+
+.grid-container{
+  display: grid;
+  background-color: #132620;
+  max-width: 350px;
+  grid-template-areas: 
+  'pantalla pantalla pantalla pantalla' 
+  'dividir multiplicar clear borrar'
+  'siete ocho nueve restar' 
+  'cuatro cinco seis sumar' 
+  'uno dos tres resultado' 
+  'porciento cero coma resultado';
+  padding: 1.75rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  
+}
+
+.grid-item{
+  border: 2px solid #b58d47;
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.grid-item:hover{
+  background-color: #b58d47;
+  color: #f4ebd2;
+  font-weight: 900;
+  transition: .25s;
+}
+
+.operador{
+  border: 2px solid #f4ebd2;
+  font-weight: 900;
+}
+
+.operador:hover{
+  background-color: #f4ebd2;
+  color: #132620;
+  font-weight: 900;
+  transition: .25s;
+}
+#item20:hover{
+  background-color: #d5ac67;
+  border: 2px solid #d5ac67;
+  color: #132620;
+  font-weight: 900;
+  transition: .25s;
+}
+#item1{
+  grid-area: uno;
+}
+#item2{
+  grid-area: dos;
+}
+#item3{
+  grid-area: tres;
+}
+#item4{
+  grid-area: cuatro;
+}
+#item5{
+  grid-area: cinco;
+}
+#item6{
+  grid-area: seis;
+}
+#item7{
+  grid-area: siete;
+}
+#item8{
+  grid-area: ocho;
+}
+#item9{
+  grid-area: nueve;
+}
+#item10{
+  grid-area: cero;
+}
+#item11{
+  grid-area: pantalla;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+#item12{
+  grid-area: dividir;
+}
+#item13{
+  grid-area: multiplicar;
+}
+#item14{
+  grid-area: restar;
+}
+#item15{
+  grid-area: sumar;
+}
+#item16{
+  grid-area: porciento;
+}
+#item17{
+  grid-area: coma;
+}
+#item18{
+  grid-area: clear;
+  color: red;
+}
+#item19{
+  grid-area: borrar;
+}
+#item20{
+  grid-area: resultado;
+  background-color: #f4ebd2;
+  color: #132620;
+}
+
+
+
+
